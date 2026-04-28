@@ -20,10 +20,15 @@ options = [
 ]
 
 score_map = {
-    "Strongly agree": 3, "Agree": 2, "Slightly agree": 1, "Neutral": 0,
-    "Slightly disagree": -1, "Disagree": -2, "Strongly disagree": -3
+  "Strongly agree": 3,
+  "Agree": 2, 
+  "Slightly agree": 1,
+  "Neutral": 0,
+  "Slightly disagree": -1,
+  "Disagree": -2,
+  "Strongly disagree": -3,
 }
-
+  
 # ---------------- STATE ----------------
 if "step" not in st.session_state:
     st.session_state.step = -1
