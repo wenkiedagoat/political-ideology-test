@@ -31,7 +31,7 @@ score_map = {
   
 # ---------------- STATE ----------------
 if "step" not in st.session_state:
-    st.session_state.step = -1
+   st.session_state.step = -1
 
 if "results" not in st.session_state:
     st.session_state.results = {}
