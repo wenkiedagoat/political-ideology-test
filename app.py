@@ -16,8 +16,7 @@ h3 {font-size: 18px !important;}
 st.title("Political Ideology Test")
 
 options = [
-    "Strongly agree", "Agree", "Slightly agree", "Neutral",
-    "Slightly disagree", "Disagree", "Strongly disagree"
+"Strongly agree", "Agree", "Slightly Agree", "Neutral", "Slightly disagree", "Disagree", "Strongly disagree"
 ]
 
 score_map = {
