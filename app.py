@@ -32,18 +32,17 @@ score_map = {
 # ---------------- STATE ----------------
 if "step" not in st.session_state:
   st.session_state.step = -1
-
 if "results" not in st.session_state:
-    st.session_state.results = {}
-
+  st.session_state.results = {} 
 if "shuffled" not in st.session_state:
-    st.session_state.shuffled = False
-
+  st.session_state.shuffled = False 
 if "open_summaries" not in st.session_state:
-    st.session_state.open_summaries = set()
-
+  st.session_state.open_summaries = set()
 if "skipped" not in st.session_state:
-    st.session_state.skipped = set()  # stores keys like "econ_3"
+  st.session_state.skipped = set()
+  
+    
+
 
 # ---------------- SECTIONS ----------------
 sections = [
